@@ -86,9 +86,11 @@
   ↓
 各 Phase の実装                 ← Ask で方針 → Agent で実装 + review
   ↓
-テスト → デプロイ
+テスト                          ← AI 支援（ケース/スクリプト）+ 人の確認
   ↓
-学びの回収 → 06-reference-projects/
+デプロイ                        ← 人が主導（チェックリストは AI 下書き可）
+  ↓
+学びの回収 → 06-reference-projects/  ← AI が下書き + 人が選別して登録
 ```
 
 | フェーズ | 成果物 | テンプレート（プレイブック内） |
@@ -99,7 +101,9 @@
 | 3 詳細設計 | DETAILED-DESIGN.md | `05-templates/detailed-design-template.md` |
 | 4 環境 | SETUP.md | `05-templates/setup-template.md` |
 | 5 実装 | コード | タスクカード + 実装プロンプト |
-| 8 回収 | lessons-learned 等 | `06-reference-projects/` |
+| 6 テスト | テストケース / テストコード | 受け入れチェックリスト + AI 支援 |
+| 7 デプロイ | デプロイ・本番反映 | 人が主導；チェックリストは AI 下書き可 |
+| 8 回収 | lessons-learned 等 | `06-reference-projects/`（AI 下書き + 人の選別） |
 
 **受け入れに通らない AI 出力は、次フェーズへ進めません。**
 

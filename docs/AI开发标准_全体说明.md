@@ -86,9 +86,11 @@ Playbook 本身是 **存放标准的仓库**，实际应用代码在 `interview-
   ↓
 各 Phase 实现                   ← Ask 定方案 → Agent 实现 + Review
   ↓
-测试 → 部署
+测试                            ← AI 辅助（用例/脚本）+ 人工确认
   ↓
-经验回收 → 06-reference-projects/
+部署                            ← 人工主导（清单可 AI 起草）
+  ↓
+经验回收 → 06-reference-projects/  ← AI 辅助起草 + 人工筛选入库
 ```
 
 | 阶段 | 产出 | Playbook 内模板 |
@@ -99,7 +101,9 @@ Playbook 本身是 **存放标准的仓库**，实际应用代码在 `interview-
 | 3 详细设计 | DETAILED-DESIGN.md | `05-templates/detailed-design-template.md` |
 | 4 环境 | SETUP.md | `05-templates/setup-template.md` |
 | 5 实现 | 代码 | 任务卡 + 实现提示词 |
-| 8 回收 | lessons-learned 等 | `06-reference-projects/` |
+| 6 测试 | 测试用例 / 测试代码 | 验收检查清单 + AI 辅助 |
+| 7 部署 | 部署与上线 | 人工主导；检查清单可 AI 起草 |
+| 8 回收 | lessons-learned 等 | `06-reference-projects/`（AI 起草 + 人工筛选） |
 
 **未通过验收的 AI 输出，不得进入下一阶段。**
 
