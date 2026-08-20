@@ -1,6 +1,12 @@
 # AI 出力フォーマット（出力契約）
 
-各 AI タスクで要求する標準的な出力構造です。プロンプト内では、必ず対応する `output-contract` を参照してください。
+各 AI タスクで要求する標準的な出力構造です。プロンプト内では、必ず対応する output-contract を参照してください。章の省略は禁止です。
+
+- 詳細設計：`detailed-design-output.md`
+
+## 詳細設計出力
+
+`detailed-design-output.md` を使う。必須章：機能概要、画面構成、状態遷移、API 一覧、データ項目、権限、例外、未決事項。
 
 ## 要件ドキュメント出力
 
@@ -58,16 +64,7 @@
 
 ## タスク分解出力
 
-```markdown
-# Phase X タスク分解
-
-## タスク 1：（名称）
-- 目的：
-- 手順：
-- 成果物：
-- 受け入れ：
-- Cursor 指示：
-```
+`../task-templates/task-card-template.md` と同じ見出し。タスクごとに 1 枚。
 
 ## Code Review 出力
 

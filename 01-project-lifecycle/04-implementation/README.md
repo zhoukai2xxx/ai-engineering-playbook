@@ -1,3 +1,4 @@
 # 実装（プレースホルダ）
 
-（占位です。必要になったらここに詳細を追記します。）
+実装はタスクカード単位で進める。
+`04-ai-workflows/task-templates/task-card-template.md` を複製して使う。

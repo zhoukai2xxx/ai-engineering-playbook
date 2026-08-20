@@ -9,7 +9,9 @@
 | プロジェクト名 | |
 | リポジトリ名 | |
 | プロジェクト目的 | |
-| 主要ユーザー | |
+| ユーザーの役割 | （例：営業/人事、技術部長、閲覧者） |
+| 機能範囲（やること） | |
+| 機能範囲（やらないこと） | |
 | 想定開発人数 | |
 | 想定期間 | |
 
@@ -55,6 +57,19 @@
 - [ ] Code review
 - [ ] テストケース生成
 
+## 多人数協業の方式
+
+- ローカル DB：各自 Docker / スキーマは `company-databases` で共有
+- ブランチ：
+- レビュー：
+- 同期：
+
+## 納品フェーズ（成果物の区切り）
+
+| フェーズ | 成果物 | 完了の定義 |
+|----------|--------|------------|
+| | | |
+
 ## フェーズ分割
 
 | Phase | 内容 | 担当者 | 想定時間 |
@@ -67,8 +82,16 @@
 
 - 
 
+## Cursor への最初の指示（例）
+
+```
+docs/KICKOFF.md と docs/REQUIREMENTS.md を読んでから作業してください。
+出力形式は ai-engineering-playbook の output-contracts に従ってください。
+```
+
 ## 参考ドキュメント
 
 - 要件ドキュメント：`docs/REQUIREMENTS.md`
 - 環境構築：`docs/SETUP.md`
 - API ドキュメント：`docs/API.md`
+- AI 協業：`ai-engineering-playbook/00-governance/ai-collaboration-policy.md`

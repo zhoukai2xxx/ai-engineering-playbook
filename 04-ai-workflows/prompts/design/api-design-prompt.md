@@ -41,3 +41,4 @@ ai-engineering-playbook/05-templates/detailed-design-template.md の「API」部
 ## 出力受け入れ
 
 `04-ai-workflows/acceptance-checklists/design-checklist.md` で確認してください。
+詳細設計まで一気に書く場合は `output-contracts/detailed-design-output.md` の章立てに従う。
